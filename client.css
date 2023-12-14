@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: monospace;
+  font-size: 10pt;
+}
+#main {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+#output {
+  border: 1px solid black;
+  background-color: white;
+  white-space: pre-wrap;
+  height: 10em;
+  padding: 0.2em;
+  overflow-y: auto;
+  overflow-wrap: break-word;
+  flex: 1;
+  margin-top: 10px;
+}
+#output > * {
+  margin-bottom: 0.1em;
+}
+#input-panel {
+  position: relative;
+  min-height: 4em;
+  width: 100%;
+  margin-top: 10px;
+}
+#input {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#send {
+  position: absolute;
+  width: 5em;
+  top: 2px;
+  bottom: 2px;
+  right: 2px;
+}

@@ -1,0 +1,11 @@
+{
+  "name": "chat-window",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve -L"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
